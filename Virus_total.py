@@ -1,0 +1,3 @@
+import requests
+
+API_KEY_VIRUS_TOTAL = "6f3cab1070600e63c15bea06c55aa04ec96ecae6cef1ebe6127bc9514131ba8a"

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Zero day vulnerability scanner</title>
+</head>
+<body>
+<h1>Zero-day vulnerability scanner</h1>
+    <div id="port-scanner-container">
+        <div class ="port-scanner">
+            <form>
+              <label for="ip-address">IP Address:</label><br>
+              <input type="text" id="ip-address" name="ip-address"><br><br>
+              <label for="start-port">Starting Port:</label><br>
+              <input type="text" id="start-port" name="start-port"><br><br>
+              <label for="end-port">Ending Port:</label><br>
+              <input type="text" id="end-port" name="end-port"><br><br>
+              <input type="submit" class="button" value="Scan">
+            </form>
+        </div>
+        <div class="port-output">
+            <p class="scanned-ports"> this is scanned ports</p>
+        </div>
+    </div>
+    <div id="password-container">
+        <div class="password-checker">
+            <form>
+              <label for="password checker">Password checker</label><br>
+              <input type="text" id="password checker" name="Password"><br><br>
+              <input type="submit" class="button"  value="Check">
+            </form>
+        </div>
+        <div id="password-checker">
+            <p>This is output of the password code</p>
+        </div>
+    </div>
+    <div class="folder-permission">
+        <form>
+          <label for="file-permission">File path</label><br>
+          <input type="text" id="file-permission" name="file-permission"><br><br>
+          <input type="submit" class="button" id="button-file-permission" value="check">
+        </form>
+    </div>
+
+</body>
+</html>
